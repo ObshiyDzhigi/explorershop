@@ -1,0 +1,27 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Устанавливает минимальную высоту на весь видовой экран */
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
+    .content {
+        flex: 1; /* Занимает доступное пространство, чтобы футер был прижат книзу */
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        max-width: 1300px;
+        margin:0 auto;
+        padding: 0 15px;
+}
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+

@@ -1,0 +1,21 @@
+.featuredProducts{
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    h1{
+      flex: 0 1 50%;
+      text-transform: capitalize;
+    }
+    p{
+      flex: 0 1 50%;
+      color: gray;
+    }
+  }
+  .bottom{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+}
